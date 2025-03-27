@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background-color: #CCD5AE;
+    font-family: "Poppins", sans-serif;
+}
+
+main img {
+width: 100px;
+border-radius: 20px;
+}
+
+.inicio{
+background-color: #E9EDC9 ;
+}
+
+.inicio a {
+    text-decoration: none;
+    color: #000;
+    
+}
+a:hover{
+    text-decoration: overline;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.caja img{
+width: 320px;
+height: 220px;
+border-radius: 5px;
+}
+.caja:hover{
+    background-color: #FAEDCD;
+}
+.caja{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+   
+}
+.letra {
+ color: #000;
+}
+.mas{
+    text-align: center;
+}
+
+.ultargeta{
+justify-content: center;
+}
+.ulcaja:hover{
+    background-color: #FAEDCD;
+
+}
+.ulcaja{
+    display: flex;
+    flex-direction: row;
+    height: 420px;
+    width: 50%;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.ulcaja img{
+    width: 250px;
+}
+.ulletra{
+    display: flex;
+    flex-direction: column;
+}
+.ulletra a {
+text-decoration: none;
+color: #000;
+}
+
+.pie{
+    justify-items: center;
+    background-color: #D4A373;
+}
+
+
+   
