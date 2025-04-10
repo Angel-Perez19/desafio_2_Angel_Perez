@@ -60,6 +60,7 @@ border-radius: 5px;
 .caja:hover{
     background-color: #E9EDC9;
     overflow: hidden;
+    transform: translate(-5px);
     
 }
 .caja{
@@ -82,6 +83,7 @@ justify-content: center;
 }
 .ulcaja:hover{
     background-color: #E9EDC9;
+    transform: translate(-5px);
 
 }
 .ulcaja{
